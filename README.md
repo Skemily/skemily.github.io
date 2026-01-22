@@ -1,1 +1,1 @@
-# skemily-github.io
+# skemily.github.io
