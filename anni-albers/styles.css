@@ -60,7 +60,8 @@ p.callout {
         '. p7 p7 p7 . .'
         'p8 p8 p8 c4 c4 c4'
         '. p9 p9 p9 . .'
-        '. . p10 p10 p10 .';
+        '. . p10 p10 p10 .'
+        'aa aa aa aa aa aa';
 }
 
 #secondLayout #titleRow { grid-area: title; }
@@ -78,7 +79,7 @@ p.callout {
 #secondLayout #callout4 { grid-area: c4; }
 #secondLayout #para9 { grid-area: p9; }
 #secondLayout #para10 { grid-area: p10; }
-
+#secondLayout #aboutauthor {grid-area: aa;}
 
 
 /* override the baseline p styles from above */
