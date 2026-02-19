@@ -47,8 +47,8 @@ p.callout {
 /* inherit the baseline code, above, and add to it */
 #secondLayout main {
     display: grid;
-    grid-template-columns: repeat(6, auto);
-    grid-template-rows: repeat(5, auto);
+    grid-template-columns: repeat(6, calc(100%/6) );
+    grid-template-rows: 100vh repeat(4, auto);
     grid-template-areas:
         'title title title title title title'
         '. p1 p1 p1 . .'
@@ -68,4 +68,8 @@ p.callout {
 /* override the baseline p styles from above */
 #secondLayout p {
     width: 100%;
+}
+
+#secondLayout #callout1 {
+    padding-left: 0;
 }
