@@ -33,13 +33,15 @@ p.callout {
 #row1 p,
 #row3 p,
 #row7 p,
+#row11 p,
 #row12 p,
 #row15 p {
     margin-left: calc(100% * 1/6);
 }
 
 #row4 p,
-#row8 p {
+#row8 p
+#row14 p {
     margin-left: calc(100% * 2/6);
 }
 
