@@ -88,5 +88,17 @@ p.callout {
 }
 
 #secondLayout #callout1 {
-    padding-left: 70vh;
+    padding-left: 20vh;
+}
+
+#secondLayout #callout2 {
+    padding-left: 20vh;
+}
+
+#secondLayout #callout3 {
+    padding-left: 20vh;
+}
+
+#secondLayout #callout4 {
+    padding-left: 20vh;
 }
